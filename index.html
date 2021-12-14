@@ -29,34 +29,37 @@
 
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oswald:wght@400;500;600;700&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oswald:wght@400;500;600;700&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
     <link href="bmf/assets/css/jquery.autocomplete.css" rel="stylesheet">
     <style>
         .autocomplete-suggestions {
             overflow: auto;
             width: auto !important;
         }
-        
+
         .autocomplete-suggestion {
             overflow: visible;
         }
-        
+
         form {
             padding: 0;
         }
-        
+
         #content-desktop {
             display: block;
         }
-        
+
         #content-mobile {
             display: none;
         }
-        
+
         @media screen and (max-width: 768px) {
             #content-desktop {
                 display: none;
             }
+
             #content-mobile {
                 display: block;
             }
@@ -72,8 +75,10 @@
                 <header class="header">
                     <div class="header__warning">
                         <div class="container">
-                            <span class="alert-color">Warning:</span> Due to extremely high media demand, there is limited supply of
-                            <span class="product-name">Keto Burn</span> in stock as of <span class="date-container"> November 17, 2021</span> <span class="hurry">HURRY! <span id="time">05:38.07</span>
+                            <span class="alert-color">Warning:</span> Due to extremely high media demand, there is
+                            limited supply of
+                            <span class="product-name">Keto Burn</span> in stock as of <span class="date-container">
+                                November 17, 2021</span> <span class="hurry">HURRY! <span id="time">05:38.07</span>
                             </span>
                         </div>
                     </div>
@@ -105,7 +110,8 @@
                                     <li>Love the Way You Feel!</li>
                                 </ul>
                                 <img alt="" src="https://buyketoburn.com/v6/images/arrow.png">
-                                <img alt="" class="security-icons" src="https://buyketoburn.com/v6/images/security-icons.png">
+                                <img alt="" class="security-icons"
+                                    src="https://buyketoburn.com/v6/images/security-icons.png">
                                 <div class="first-section__bottle">
                                     <img alt="" src="https://buyketoburn.com/v6/images/product.png">
                                 </div>
@@ -115,13 +121,18 @@
                                 <h2 class="form-title">
                                     <span>STEP 1</span> - TELL US WHERE TO SEND YOUR BOTTLE
                                 </h2>
-                                <form name="prospect_form1" class="kform form123" id="theForm" action="includes/create_prospect.php" method="post" onSubmit="return validate_optin_form()" accept-charset="utf-8" enctype="application/x-www-form-urlencoded;charset=utf-8">
-                                    <input type='hidden' name='limelight_charset' id='limelight_charset' value='ISO-8859-1' />
+                                <form name="prospect_form1" class="kform form123" id="theForm"
+                                    action="includes/create_prospect.php" method="post"
+                                    onSubmit="return validate_optin_form()" accept-charset="utf-8"
+                                    enctype="application/x-www-form-urlencoded;charset=utf-8">
+                                    <input type='hidden' name='limelight_charset' id='limelight_charset'
+                                        value='ISO-8859-1' />
                                     <input type='hidden' id='campaign_id' name='campaign_id' value='130' />
                                     <input type="hidden" name="notes" value="" />
                                     <input type="hidden" name="country" id="country" value="US" />
 
-                                    <input type='hidden' name='AFFID' value='GADS'><input type='hidden' name='C1' value=''>
+                                    <input type='hidden' name='AFFID' value='GADS'><input type='hidden' name='C1'
+                                        value=''>
 
                                     <div class="row margin-bottom-5">
                                         <div class="phone-6 columns form-holder">
@@ -135,11 +146,15 @@
 
                                     <div class="row">
                                         <div class="phone-6 columns form-holder">
-                                            <input class="form-control required" data-placement="auto left" name="fields_fname" id='fields_fname' placeholder="First Name*" title="First Name" type="text" value="">
+                                            <input class="form-control required" data-placement="auto left"
+                                                name="fields_fname" id='fields_fname' placeholder="First Name*"
+                                                title="First Name" type="text" value="">
                                         </div>
 
                                         <div class="phone-6 columns form-holder">
-                                            <input class="form-control required" data-placement="auto left" name="fields_lname" id='fields_lname' placeholder="Last Name*" title="Last Name" type="text" value="">
+                                            <input class="form-control required" data-placement="auto left"
+                                                name="fields_lname" id='fields_lname' placeholder="Last Name*"
+                                                title="Last Name" type="text" value="">
                                         </div>
                                     </div>
 
@@ -150,7 +165,9 @@
                                     </div>
 
                                     <div class="phone-12 columns form-holder">
-                                        <input class="form-control required" data-placement="auto left" name="fields_address1" id="fields_address1" placeholder="Address*" title="Address" type="text" value="">
+                                        <input class="form-control required" data-placement="auto left"
+                                            name="fields_address1" id="fields_address1" placeholder="Address*"
+                                            title="Address" type="text" value="">
                                     </div>
 
                                     <div class=" margin-bottom-5 form-holder">
@@ -160,7 +177,10 @@
                                     </div>
 
                                     <div class="phone-12 columns form-holder">
-                                        <input class="form-control required" data-placement="auto left" name="fields_zip" id="fields_zip" placeholder="Zip Code*" title="Zip Code" type="tel" minlength="5" maxlength="5" value="" onKeyUp="javascript: this.value = this.value.replace(/[^0-9]/g, '');">
+                                        <input class="form-control required" data-placement="auto left"
+                                            name="fields_zip" id="fields_zip" placeholder="Zip Code*" title="Zip Code"
+                                            type="tel" minlength="5" maxlength="5" value=""
+                                            onKeyUp="javascript: this.value = this.value.replace(/[^0-9]/g, '');">
                                     </div>
 
                                     <div class=" margin-bottom-5 form-holder">
@@ -170,75 +190,78 @@
                                     </div>
 
                                     <div class="phone-12 columns form-holder">
-                                        <input class="form-control required" data-placement="auto left" name="fields_city" id="fields_city" placeholder="City*" title="City" type="text" value="">
+                                        <input class="form-control required" data-placement="auto left"
+                                            name="fields_city" id="fields_city" placeholder="City*" title="City"
+                                            type="text" value="">
                                     </div>
 
                                     <div class="phone-12 columns form-holder">
                                         <label>State:</label>
-                                        <select name="fields_state" id="fields_state" class="form-control required" data-selected="" data-error-message="State is required">
-                            <option value="" onClick="" >Select State</option>
-                            <option value="AL">Alabama (AL)</option>
-    <option value="AK">Alaska (AK)</option>
-    <option value="AS">American Samoa (AS)</option>
-    <option value="AZ">Arizona (AZ)</option>
-    <option value="AR">Arkansas (AR)</option>
-    <option value="AE">Armed Forces (AE)</option>
-    <option value="AA">Armed Forces Americas (AA)</option>
-    <option value="AP">Armed Forces Pacific (AP)</option>
-    <option value="CA">California (CA)</option>
-    <option value="CO">Colorado (CO)</option>
-    <option value="CT">Connecticut (CT)</option>
-    <option value="DE">Delaware (DE)</option>
-    <option value="DC">District of Columbia (DC)</option>
-    <option value="FM">Federated States of Micronesia (FM)</option>
-    <option value="FL">Florida (FL)</option>
-    <option value="GA">Georgia (GA)</option>
-    <option value="GU">Guam (GU)</option>
-    <option value="HI">Hawaii (HI)</option>
-    <option value="ID">Idaho (ID)</option>
-    <option value="IL">Illinois (IL)</option>
-    <option value="IN">Indiana (IN)</option>
-    <option value="IA">Iowa (IA)</option>
-    <option value="KS">Kansas (KS)</option>
-    <option value="KY">Kentucky (KY)</option>
-    <option value="LA">Louisiana (LA)</option>
-    <option value="ME">Maine (ME)</option>
-    <option value="MD">Maryland (MD)</option>
-    <option value="MA">Massachusetts (MA)</option>
-    <option value="MI">Michigan (MI)</option>
-    <option value="MN">Minnesota (MN)</option>
-    <option value="MS">Mississippi (MS)</option>
-    <option value="MO">Missouri (MO)</option>
-    <option value="MT">Montana (MT)</option>
-    <option value="NE">Nebraska (NE)</option>
-    <option value="NV">Nevada (NV)</option>
-    <option value="NH">New Hampshire (NH)</option>
-    <option value="NJ">New Jersey (NJ)</option>
-    <option value="NM">New Mexico (NM)</option>
-    <option value="NY">New York (NY)</option>
-    <option value="NC">North Carolina (NC)</option>
-    <option value="ND">North Dakota (ND)</option>
-    <option value="MP">Northern Mariana Islands (MP)</option>
-    <option value="OH">Ohio (OH)</option>
-    <option value="OK">Oklahoma (OK)</option>
-    <option value="OR">Oregon (OR)</option>
-    <option value="PA">Pennsylvania (PA)</option>
-    <option value="PR">Puerto Rico (PR)</option>
-    <option value="MH">Republic of Marshall Islands (MH)</option>
-    <option value="RI">Rhode Island (RI)</option>
-    <option value="SC">South Carolina (SC)</option>
-    <option value="SD">South Dakota (SD)</option>
-    <option value="TN">Tennessee (TN)</option>
-    <option value="TX">Texas (TX)</option>
-    <option value="UT">Utah (UT)</option>
-    <option value="VT">Vermont (VT)</option>
-    <option value="VI">Virgin Islands of the U.S. (VI)</option>
-    <option value="VA">Virginia (VA)</option>
-    <option value="WA">Washington (WA)</option>
-    <option value="WV">West Virginia (WV)</option>
-    <option value="WI">Wisconsin (WI)</option>
-    <option value="WY">Wyoming (WY)</option>
-                    </select>
+                                        <select name="fields_state" id="fields_state" class="form-control required"
+                                            data-selected="" data-error-message="State is required">
+                                            <option value="" onClick="">Select State</option>
+                                            <option value="AL">Alabama (AL)</option>
+                                            <option value="AK">Alaska (AK)</option>
+                                            <option value="AS">American Samoa (AS)</option>
+                                            <option value="AZ">Arizona (AZ)</option>
+                                            <option value="AR">Arkansas (AR)</option>
+                                            <option value="AE">Armed Forces (AE)</option>
+                                            <option value="AA">Armed Forces Americas (AA)</option>
+                                            <option value="AP">Armed Forces Pacific (AP)</option>
+                                            <option value="CA">California (CA)</option>
+                                            <option value="CO">Colorado (CO)</option>
+                                            <option value="CT">Connecticut (CT)</option>
+                                            <option value="DE">Delaware (DE)</option>
+                                            <option value="DC">District of Columbia (DC)</option>
+                                            <option value="FM">Federated States of Micronesia (FM)</option>
+                                            <option value="FL">Florida (FL)</option>
+                                            <option value="GA">Georgia (GA)</option>
+                                            <option value="GU">Guam (GU)</option>
+                                            <option value="HI">Hawaii (HI)</option>
+                                            <option value="ID">Idaho (ID)</option>
+                                            <option value="IL">Illinois (IL)</option>
+                                            <option value="IN">Indiana (IN)</option>
+                                            <option value="IA">Iowa (IA)</option>
+                                            <option value="KS">Kansas (KS)</option>
+                                            <option value="KY">Kentucky (KY)</option>
+                                            <option value="LA">Louisiana (LA)</option>
+                                            <option value="ME">Maine (ME)</option>
+                                            <option value="MD">Maryland (MD)</option>
+                                            <option value="MA">Massachusetts (MA)</option>
+                                            <option value="MI">Michigan (MI)</option>
+                                            <option value="MN">Minnesota (MN)</option>
+                                            <option value="MS">Mississippi (MS)</option>
+                                            <option value="MO">Missouri (MO)</option>
+                                            <option value="MT">Montana (MT)</option>
+                                            <option value="NE">Nebraska (NE)</option>
+                                            <option value="NV">Nevada (NV)</option>
+                                            <option value="NH">New Hampshire (NH)</option>
+                                            <option value="NJ">New Jersey (NJ)</option>
+                                            <option value="NM">New Mexico (NM)</option>
+                                            <option value="NY">New York (NY)</option>
+                                            <option value="NC">North Carolina (NC)</option>
+                                            <option value="ND">North Dakota (ND)</option>
+                                            <option value="MP">Northern Mariana Islands (MP)</option>
+                                            <option value="OH">Ohio (OH)</option>
+                                            <option value="OK">Oklahoma (OK)</option>
+                                            <option value="OR">Oregon (OR)</option>
+                                            <option value="PA">Pennsylvania (PA)</option>
+                                            <option value="PR">Puerto Rico (PR)</option>
+                                            <option value="MH">Republic of Marshall Islands (MH)</option>
+                                            <option value="RI">Rhode Island (RI)</option>
+                                            <option value="SC">South Carolina (SC)</option>
+                                            <option value="SD">South Dakota (SD)</option>
+                                            <option value="TN">Tennessee (TN)</option>
+                                            <option value="TX">Texas (TX)</option>
+                                            <option value="UT">Utah (UT)</option>
+                                            <option value="VT">Vermont (VT)</option>
+                                            <option value="VI">Virgin Islands of the U.S. (VI)</option>
+                                            <option value="VA">Virginia (VA)</option>
+                                            <option value="WA">Washington (WA)</option>
+                                            <option value="WV">West Virginia (WV)</option>
+                                            <option value="WI">Wisconsin (WI)</option>
+                                            <option value="WY">Wyoming (WY)</option>
+                                        </select>
                                     </div>
 
                                     <div class="row">
@@ -252,10 +275,14 @@
 
                                     <div class="row">
                                         <div class="phone-6 columns form-holder">
-                                            <input class="form-control required" data-placement="auto left" name="fields_email" id="fields_email" placeholder="Email*" title="Email" type="email" value="">
+                                            <input class="form-control required" data-placement="auto left"
+                                                name="fields_email" id="fields_email" placeholder="Email*" title="Email"
+                                                type="email" value="">
                                         </div>
                                         <div class="phone-6 columns form-holder">
-                                            <input class="form-control required" data-placement="auto left" name="fields_phone" id="fields_phone" placeholder="Phone Number*" title="Phone Number" type="tel" value="" maxlength="10">
+                                            <input class="form-control required" data-placement="auto left"
+                                                name="fields_phone" id="fields_phone" placeholder="Phone Number*"
+                                                title="Phone Number" type="tel" value="" maxlength="10">
 
                                         </div>
                                     </div>
@@ -271,14 +298,20 @@
                     <div class="container">
                         <div class="row responsive-row-2">
                             <div class="why-is__side">
-                                <img alt="" src="https://buyketoburn.com/v6/images/keto-magazines.png" class="keto-magazines">
+                                <img alt="" src="https://buyketoburn.com/v6/images/keto-magazines.png"
+                                    class="keto-magazines">
                                 <img alt="" src="https://buyketoburn.com/v6/images/product.png" class="wy-btl">
                             </div>
                             <div class="why-is__side">
                                 <h2>WHY IS Keto Burn <br><span>SO POPULAR NOW?</span></h2>
-                                <p>A recent study published by the Diabetes, Obesity, and Metabolism Journal found that Keto Burn supported burning fat for energy instead of carbohydrates greatly increasing weight loss and energy. Furthermore, TV doctor
-                                    Oz, recently named Keto Burn the "Holy Grail" of weight loss for good reason - IT WORKS.</p>
-                                <p>It is important to note that the Keto Burn with 100% BHB (Beta-Hydroxybutyrate) used in the study was the real deal and Keto Burn exceeds the studies product potency using proprietary methods.</p>
+                                <p>A recent study published by the Diabetes, Obesity, and Metabolism Journal found that
+                                    Keto Burn supported burning fat for energy instead of carbohydrates greatly
+                                    increasing weight loss and energy. Furthermore, TV doctor
+                                    Oz, recently named Keto Burn the "Holy Grail" of weight loss for good reason - IT
+                                    WORKS.</p>
+                                <p>It is important to note that the Keto Burn with 100% BHB (Beta-Hydroxybutyrate) used
+                                    in the study was the real deal and Keto Burn exceeds the studies product potency
+                                    using proprietary methods.</p>
                                 <p>Bottom Line: It Works and it's Better for your Health!</p>
                             </div>
                         </div>
@@ -295,13 +328,17 @@
                                 <img alt="" src="https://buyketoburn.com/v6/images/step-1.png">
                                 <span class="how-use__step">Step 1</span>
                                 <span class="how-use__title">INSTANT FAT BURN</span>
-                                <p>Keto Burn works to release stored fat, by helping your body burn fat for energy instead of carbs. Advanced Ketones are behind this miracle product that helps you lose up to 5 lbs in the first week.</p>
+                                <p>Keto Burn works to release stored fat, by helping your body burn fat for energy
+                                    instead of carbs. Advanced Ketones are behind this miracle product that helps you
+                                    lose up to 5 lbs in the first week.</p>
                             </div>
                             <div class="how-use__item">
                                 <img alt="" src="https://buyketoburn.com/v6/images/step-2.png">
                                 <span class="how-use__step">Step 2</span>
                                 <span class="how-use__title">ACCELERATED FAT BURN</span>
-                                <p>During the first month of use, Keto Burn with BHB produces accelerated Fat Burn, which results in expected weight loss of up to 20 lbs. You will notice a drastic change in a very short period of time!</p>
+                                <p>During the first month of use, Keto Burn with BHB produces accelerated Fat Burn,
+                                    which results in expected weight loss of up to 20 lbs. You will notice a drastic
+                                    change in a very short period of time!</p>
 
 
                             </div>
@@ -309,15 +346,18 @@
                                 <img alt="" src="https://buyketoburn.com/v6/images/step-3.png">
                                 <span class="how-use__step">Step 3</span>
                                 <span class="how-use__title">TRANSFORM YOUR BODY</span>
-                                <p>With your weight loss goals achieved, continue to take Keto Burn for 3-5 months as to stabilize your appetite, as well as to maintain and transform your new, slim body.</p>
+                                <p>With your weight loss goals achieved, continue to take Keto Burn for 3-5 months as to
+                                    stabilize your appetite, as well as to maintain and transform your new, slim body.
+                                </p>
 
                             </div>
                         </div>
                         <div class="diagonal-line-container">
-                            <svg class="diagonal-line" preserveAspectRatio="none" version="1.1" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
-                            <polygon fill="#f3f3f3" points="200,500 0,500 300,0 500,0">
-                            </polygon>
-                        </svg>
+                            <svg class="diagonal-line" preserveAspectRatio="none" version="1.1" viewBox="0 0 500 500"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <polygon fill="#f3f3f3" points="200,500 0,500 300,0 500,0">
+                                </polygon>
+                            </svg>
                         </div>
                     </div>
                 </section>
@@ -325,25 +365,36 @@
                 <section class="science green-gradient">
                     <div class="container">
                         <div class="flip diagonal-line-container">
-                            <svg class="diagonal-line" preserveAspectRatio="none" version="1.1" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
-                            <polygon fill="#f3f3f3" points="200,500 0,500 300,0 500,0">
-                            </polygon>
-                        </svg>
+                            <svg class="diagonal-line" preserveAspectRatio="none" version="1.1" viewBox="0 0 500 500"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <polygon fill="#f3f3f3" points="200,500 0,500 300,0 500,0">
+                                </polygon>
+                            </svg>
                         </div>
                         <div class="row responsive-row-4">
                             <div class="science__left">
                                 <h2 class="science__title">THE SCIENCE OF</h2>
                                 <h2 class="science__subTitle"> KETOSIS<span>(Keto Burn)</span></h2>
-                                <p>Ketosis is the state where your body is actually burning fat for energy instead of carbs. Ketosis is extremely hard to obtain on your own and takes weeks to accomplish. Keto Burn actually helps your body achieve ketosis
+                                <p>Ketosis is the state where your body is actually burning fat for energy instead of
+                                    carbs. Ketosis is extremely hard to obtain on your own and takes weeks to
+                                    accomplish. Keto Burn actually helps your body achieve ketosis
                                     fast and helps you burn fat for energy instead of carbs!</p>
                                 <ul>
-                                    <li><span>No More Stored Fat:</span> Currently with the massive load of cabohydrates in our foods, our bodies are conditioned to burn carbs for energy instead of fat. Because it is an easier energy source for the body to
+                                    <li><span>No More Stored Fat:</span> Currently with the massive load of cabohydrates
+                                        in our foods, our bodies are conditioned to burn carbs for energy instead of
+                                        fat. Because it is an easier energy source for the body to
                                         use up.
                                     </li>
-                                    <li><span>Fat - The New Energy:</span> Ketosis is the state where your body is actually burning fat for energy instead of carbs. Ketosis is extremely hard to obtain on your own and takes weeks to accomplish. Keto Burn actually
-                                        helps your body achieve ketosis fast and helps you burn fat for energy instead of carbs!</li>
-                                    <li><span>More Health Benefits:</span> Keto Burn BHB works almost instantly to help support ketosis in the body by Burning FAT for energy. Fat IS the body's ideal source of energy and when you are in ketosis you experience
-                                        energy and mental clarity like never before and of course very rapid weight loss.</li>
+                                    <li><span>Fat - The New Energy:</span> Ketosis is the state where your body is
+                                        actually burning fat for energy instead of carbs. Ketosis is extremely hard to
+                                        obtain on your own and takes weeks to accomplish. Keto Burn actually
+                                        helps your body achieve ketosis fast and helps you burn fat for energy instead
+                                        of carbs!</li>
+                                    <li><span>More Health Benefits:</span> Keto Burn BHB works almost instantly to help
+                                        support ketosis in the body by Burning FAT for energy. Fat IS the body's ideal
+                                        source of energy and when you are in ketosis you experience
+                                        energy and mental clarity like never before and of course very rapid weight
+                                        loss.</li>
                                 </ul>
 
 
@@ -362,10 +413,11 @@
                 <section class="review">
                     <div class="container">
                         <div class="diagonal-line-container">
-                            <svg class="diagonal-line" preserveAspectRatio="none" version="1.1" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
-                            <polygon fill="#f3f3f3" points="200,500 0,500 300,0 500,0">
-                            </polygon>
-                        </svg>
+                            <svg class="diagonal-line" preserveAspectRatio="none" version="1.1" viewBox="0 0 500 500"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <polygon fill="#f3f3f3" points="200,500 0,500 300,0 500,0">
+                                </polygon>
+                            </svg>
                         </div>
                         <h2><span>REAL</span> SUCCESS STORIES</h2>
 
@@ -376,8 +428,12 @@
                                 </div>
                                 <div class="slide__item_right">
                                     <div class="table-cell">
-                                        <p>"After watching video after video of keto success stories, I felt hopeful that I could actually start losing weight without anything too extreme. When I found Keto Burn online and thought I'd give it a shot. I started
-                                            losing weight, I though maybe it was a fluke at first. After my first 10 pounds, I cried. If you need something to work like me, you won't be let down"</p>
+                                        <p>"After watching video after video of keto success stories, I felt hopeful
+                                            that I could actually start losing weight without anything too extreme. When
+                                            I found Keto Burn online and thought I'd give it a shot. I started
+                                            losing weight, I though maybe it was a fluke at first. After my first 10
+                                            pounds, I cried. If you need something to work like me, you won't be let
+                                            down"</p>
                                         <span>- Ashley R</span>
                                     </div>
                                 </div>
@@ -389,7 +445,9 @@
                                 </div>
                                 <div class="slide__item_right">
                                     <div class="table-cell">
-                                        <p>"I've been hearing about Keto Burn for a while now. My sister took it and had some amazing success. I thought, if I could just lose a few pounds I would feel better about myself. I was shocked to say the least when
+                                        <p>"I've been hearing about Keto Burn for a while now. My sister took it and had
+                                            some amazing success. I thought, if I could just lose a few pounds I would
+                                            feel better about myself. I was shocked to say the least when
                                             I lost 20lbs in 30 days. Now I tell everyone :)"
                                         </p>
                                         <span>- Isabella N</span>
@@ -403,8 +461,11 @@
                                 </div>
                                 <div class="slide__item_right">
                                     <div class="table-cell">
-                                        <p>"Keto Burn is by far the best product I've used for ketosis. It works and it works well. I am the leanest I have ever been in my life. I had my body fat tested before and after and I went from a whopping 26% body
-                                            fat down to 16% in 4 months. I owe a big thanks to Keto Burn for this amazing experience."
+                                        <p>"Keto Burn is by far the best product I've used for ketosis. It works and it
+                                            works well. I am the leanest I have ever been in my life. I had my body fat
+                                            tested before and after and I went from a whopping 26% body
+                                            fat down to 16% in 4 months. I owe a big thanks to Keto Burn for this
+                                            amazing experience."
                                         </p>
                                         <span>- Darin K</span>
                                     </div>
@@ -418,10 +479,11 @@
                 <section class="last-block">
                     <div class="container">
                         <div class="diagonal-line-container flip">
-                            <svg class="diagonal-line" preserveAspectRatio="none" version="1.1" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
-                            <polygon fill="#f3f3f3" points="200,500 0,500 300,0 500,0">
-                            </polygon>
-                        </svg>
+                            <svg class="diagonal-line" preserveAspectRatio="none" version="1.1" viewBox="0 0 500 500"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <polygon fill="#f3f3f3" points="200,500 0,500 300,0 500,0">
+                                </polygon>
+                            </svg>
                         </div>
                         <div class="last-block__block row">
                             <div class="last-block_left">
@@ -457,19 +519,26 @@
                             <li><img alt="" src="https://buyketoburn.com/v6/images/ca.png"></li>
                         </ul>
 
-                        <p>Keto Burn is committed to maintaining the highest quality products and the utmost integrity in business practices. All products sold on this website are certified by Good Manufacturing Practices (GMP), which is the highest standard
+                        <p>Keto Burn is committed to maintaining the highest quality products and the utmost integrity
+                            in business practices. All products sold on this website are certified by Good Manufacturing
+                            Practices (GMP), which is the highest standard
                             of testing in the supplement industry.</p>
-                        <p>Notice: The products and information found on this site are not intended to replace professional medical advice or treatment. These statements have not been evaluated by the Food and Drug Administration. These products are not
+                        <p>Notice: The products and information found on this site are not intended to replace
+                            professional medical advice or treatment. These statements have not been evaluated by the
+                            Food and Drug Administration. These products are not
                             intended to diagnose, treat, cure or prevent any disease. Individual results may vary.</p>
                         <p>&copy;
                             <script>
                                 var date = new Date();
                                 document.write(date.getFullYear())
-                            </script> Keto Burn. All Rights Reserved.</p>
+                            </script> Keto Burn. All Rights Reserved.
+                        </p>
 
                         <ul class="terms-links">
-                            <li> <a href="javascript:void(0);" onClick="openNewWindow('privacy.php','modal');">Privacy Policy |</a></li>
-                            <li> <a href="javascript:void(0);" onClick="openNewWindow('terms.php','modal');">Terms and Conditions</a></li>
+                            <li> <a href="javascript:void(0);" onClick="openNewWindow('privacy.php','modal');">Privacy
+                                    Policy |</a></li>
+                            <li> <a href="javascript:void(0);" onClick="openNewWindow('terms.php','modal');">Terms and
+                                    Conditions</a></li>
                         </ul>
                     </div>
                 </footer>
@@ -484,9 +553,11 @@
             <header class="header-mobile">
                 <div class="header-mobile__warning">
                     <div class="container">
-                        <span class="alert-color">Warning:</span> Due to extremely high media demand, there is limited supply of
-                        <span class="product-name">Keto Burn</span> in stock as of <span class="date-container"> November 24, 2021</span><span class="hurry"> HURRY! <span
-                        class="time" id="time">16:00</span></span>
+                        <span class="alert-color">Warning:</span> Due to extremely high media demand, there is limited
+                        supply of
+                        <span class="product-name">Keto Burn</span> in stock as of <span class="date-container">
+                            November 24, 2021</span><span class="hurry"> HURRY! <span class="time"
+                                id="time">16:00</span></span>
                     </div>
                 </div>
                 <div class="container row">
@@ -511,7 +582,8 @@
                                     <li>Love the Way You Feel!</li>
                                 </ul>
                                 <img alt="" class="d-mobile" src="https://buyketoburn.com/v6/mobile/images/arrow.png">
-                                <img alt="" class="security-icons d-mobile" src="https://buyketoburn.com/v6/mobile/images/security-icons.png">
+                                <img alt="" class="security-icons d-mobile"
+                                    src="https://buyketoburn.com/v6/mobile/images/security-icons.png">
 
                                 <div class="first-section__bottle">
                                     <img alt="" src="https://buyketoburn.com/v6/mobile/images/product.png">
@@ -544,14 +616,19 @@
                 <div class="container">
                     <div class="row">
                         <div class="why-is__side">
-                            <img alt="" src="https://buyketoburn.com/v6/mobile/images/keto-magazines.png" class="keto-magazines">
+                            <img alt="" src="https://buyketoburn.com/v6/mobile/images/keto-magazines.png"
+                                class="keto-magazines">
                             <img alt="" src="https://buyketoburn.com/v6/mobile/images/product.png" class="wy-btl">
                         </div>
                         <div class="why-is__side">
                             <h2>WHY IS Keto Burn <br><span>SO POPULAR NOW?</span></h2>
-                            <p>A recent study published by the Diabetes, Obesity, and Metabolism Journal found that Keto Burn supported burning fat for energy instead of carbohydrates greatly increasing weight loss and energy. Furthermore, TV doctor Oz,
+                            <p>A recent study published by the Diabetes, Obesity, and Metabolism Journal found that Keto
+                                Burn supported burning fat for energy instead of carbohydrates greatly increasing weight
+                                loss and energy. Furthermore, TV doctor Oz,
                                 recently named Keto Burn the "Holy Grail" of weight loss for good reason - IT WORKS.</p>
-                            <p>It is important to note that the Keto Burn with 100% BHB (Beta-Hydroxybutyrate) used in the study was the real deal and Keto Burn exceeds the studies product potency using proprietary methods.</p>
+                            <p>It is important to note that the Keto Burn with 100% BHB (Beta-Hydroxybutyrate) used in
+                                the study was the real deal and Keto Burn exceeds the studies product potency using
+                                proprietary methods.</p>
                             <p>Bottom Line: It Works and it's Better for your Health!</p>
                         </div>
                     </div>
@@ -568,26 +645,32 @@
                             <img alt="" src="https://buyketoburn.com/v6/mobile/images/step-1.png">
                             <span class="how-use__step">Step 1</span>
                             <span class="how-use__title">INSTANT FAT BURN</span>
-                            <p>Keto Burn works to release stored fat, by helping your body burn fat for energy instead of carbs. Advanced Ketones are behind this miracle product that helps you lose up to 5 lbs in the first week.</p>
+                            <p>Keto Burn works to release stored fat, by helping your body burn fat for energy instead
+                                of carbs. Advanced Ketones are behind this miracle product that helps you lose up to 5
+                                lbs in the first week.</p>
                         </div>
                         <div class="how-use__item">
                             <img alt="" src="https://buyketoburn.com/v6/mobile/images/step-2.png">
                             <span class="how-use__step">Step 2</span>
                             <span class="how-use__title">ACCELERATED FAT BURN</span>
-                            <p>During the first month of use, Keto Burn with BHB produces accelerated Fat Burn, which results in expected weight loss of up to 20 lbs. You will notice a drastic change in a very short period of time!</p>
+                            <p>During the first month of use, Keto Burn with BHB produces accelerated Fat Burn, which
+                                results in expected weight loss of up to 20 lbs. You will notice a drastic change in a
+                                very short period of time!</p>
                         </div>
                         <div class="how-use__item">
                             <img alt="" src="https://buyketoburn.com/v6/mobile/images/step-3.png">
                             <span class="how-use__step">Step 3</span>
                             <span class="how-use__title">TRANSFORM YOUR BODY</span>
-                            <p>With your weight loss goals achieved, continue to take Keto Burn for 3-5 months as to stabilize your appetite, as well as to maintain and transform your new, slim body.</p>
+                            <p>With your weight loss goals achieved, continue to take Keto Burn for 3-5 months as to
+                                stabilize your appetite, as well as to maintain and transform your new, slim body.</p>
                         </div>
                     </div>
                     <div class="diagonal-line-container">
-                        <svg class="diagonal-line" preserveAspectRatio="none" version="1.1" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
-                        <polygon fill="#f3f3f3" points="200,500 0,500 300,0 500,0">
-                        </polygon>
-                    </svg>
+                        <svg class="diagonal-line" preserveAspectRatio="none" version="1.1" viewBox="0 0 500 500"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <polygon fill="#f3f3f3" points="200,500 0,500 300,0 500,0">
+                            </polygon>
+                        </svg>
                     </div>
                 </div>
             </section>
@@ -595,25 +678,36 @@
             <section class="science green-gradient">
                 <div class="container">
                     <div class="flip diagonal-line-container">
-                        <svg class="diagonal-line" preserveAspectRatio="none" version="1.1" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
-                        <polygon fill="#f3f3f3" points="200,500 0,500 300,0 500,0">
-                        </polygon>
-                    </svg>
+                        <svg class="diagonal-line" preserveAspectRatio="none" version="1.1" viewBox="0 0 500 500"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <polygon fill="#f3f3f3" points="200,500 0,500 300,0 500,0">
+                            </polygon>
+                        </svg>
                     </div>
                     <div class="row">
                         <div class="science__left">
                             <h2 class="science__title">THE SCIENCE OF</h2>
                             <h2 class="science__subTitle"> KETOSIS<span>(Keto Burn)</span></h2>
-                            <p>Ketosis is the state where your body is actually burning fat for energy instead of carbs. Ketosis is extremely hard to obtain on your own and takes weeks to accomplish. Keto Burn actually helps your body achieve ketosis fast
+                            <p>Ketosis is the state where your body is actually burning fat for energy instead of carbs.
+                                Ketosis is extremely hard to obtain on your own and takes weeks to accomplish. Keto Burn
+                                actually helps your body achieve ketosis fast
                                 and helps you burn fat for energy instead of carbs!</p>
                             <ul>
-                                <li><span>No More Stored Fat:</span> Currently with the massive load of cabohydrates in our foods, our bodies are conditioned to burn carbs for energy instead of fat. Because it is an easier energy source for the body to use
+                                <li><span>No More Stored Fat:</span> Currently with the massive load of cabohydrates in
+                                    our foods, our bodies are conditioned to burn carbs for energy instead of fat.
+                                    Because it is an easier energy source for the body to use
                                     up.
                                 </li>
-                                <li><span>Fat - The New Energy:</span> Ketosis is the state where your body is actually burning fat for energy instead of carbs. Ketosis is extremely hard to obtain on your own and takes weeks to accomplish. Keto Burn actually
-                                    helps your body achieve ketosis fast and helps you burn fat for energy instead of carbs!</li>
-                                <li><span>More Health Benefits:</span> Keto Burn BHB works almost instantly to help support ketosis in the body by Burning FAT for energy. Fat IS the body's ideal source of energy and when you are in ketosis you experience
-                                    energy and mental clarity like never before and of course very rapid weight loss.</li>
+                                <li><span>Fat - The New Energy:</span> Ketosis is the state where your body is actually
+                                    burning fat for energy instead of carbs. Ketosis is extremely hard to obtain on your
+                                    own and takes weeks to accomplish. Keto Burn actually
+                                    helps your body achieve ketosis fast and helps you burn fat for energy instead of
+                                    carbs!</li>
+                                <li><span>More Health Benefits:</span> Keto Burn BHB works almost instantly to help
+                                    support ketosis in the body by Burning FAT for energy. Fat IS the body's ideal
+                                    source of energy and when you are in ketosis you experience
+                                    energy and mental clarity like never before and of course very rapid weight loss.
+                                </li>
                             </ul>
 
 
@@ -632,10 +726,11 @@
             <section class="review">
                 <div class="container">
                     <div class="diagonal-line-container">
-                        <svg class="diagonal-line" preserveAspectRatio="none" version="1.1" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
-                        <polygon fill="#f3f3f3" points="200,500 0,500 300,0 500,0">
-                        </polygon>
-                    </svg>
+                        <svg class="diagonal-line" preserveAspectRatio="none" version="1.1" viewBox="0 0 500 500"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <polygon fill="#f3f3f3" points="200,500 0,500 300,0 500,0">
+                            </polygon>
+                        </svg>
                     </div>
                     <h2><span>REAL</span> SUCCESS STORIES</h2>
 
@@ -646,8 +741,11 @@
                             </div>
                             <div class="slide__item_right">
                                 <div class="table-cell">
-                                    <p>"After watching video after video of keto success stories, I felt hopeful that I could actually start losing weight without anything too extreme. When I found Keto Burn online and thought I'd give it a shot. I started
-                                        losing weight, I though maybe it was a fluke at first. After my first 10 pounds, I cried. If you need something to work like me, you won't be let down"</p>
+                                    <p>"After watching video after video of keto success stories, I felt hopeful that I
+                                        could actually start losing weight without anything too extreme. When I found
+                                        Keto Burn online and thought I'd give it a shot. I started
+                                        losing weight, I though maybe it was a fluke at first. After my first 10 pounds,
+                                        I cried. If you need something to work like me, you won't be let down"</p>
                                     <span>- Ashley R</span>
                                 </div>
                             </div>
@@ -659,7 +757,9 @@
                             </div>
                             <div class="slide__item_right">
                                 <div class="table-cell">
-                                    <p>"I've been hearing about Keto Burn for a while now. My sister took it and had some amazing success. I thought, if I could just lose a few pounds I would feel better about myself. I was shocked to say the least when
+                                    <p>"I've been hearing about Keto Burn for a while now. My sister took it and had
+                                        some amazing success. I thought, if I could just lose a few pounds I would feel
+                                        better about myself. I was shocked to say the least when
                                         I lost 20lbs in 30 days. Now I tell everyone :)"
                                     </p>
                                     <span>- Isabella N</span>
@@ -673,8 +773,11 @@
                             </div>
                             <div class="slide__item_right">
                                 <div class="table-cell">
-                                    <p>"Keto Burn is by far the best product I've used for ketosis. It works and it works well. I am the leanest I have ever been in my life. I had my body fat tested before and after and I went from a whopping 26% body fat
-                                        down to 16% in 4 months. I owe a big thanks to Keto Burn for this amazing experience."
+                                    <p>"Keto Burn is by far the best product I've used for ketosis. It works and it
+                                        works well. I am the leanest I have ever been in my life. I had my body fat
+                                        tested before and after and I went from a whopping 26% body fat
+                                        down to 16% in 4 months. I owe a big thanks to Keto Burn for this amazing
+                                        experience."
                                     </p>
                                     <span>- Darin K</span>
                                 </div>
@@ -688,15 +791,17 @@
             <section class="last-block">
                 <div class="container">
                     <div class="diagonal-line-container flip">
-                        <svg class="diagonal-line" preserveAspectRatio="none" version="1.1" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
-                        <polygon fill="#f3f3f3" points="200,500 0,500 300,0 500,0">
-                        </polygon>
-                    </svg>
+                        <svg class="diagonal-line" preserveAspectRatio="none" version="1.1" viewBox="0 0 500 500"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <polygon fill="#f3f3f3" points="200,500 0,500 300,0 500,0">
+                            </polygon>
+                        </svg>
                     </div>
                     <div class="last-block__block row">
                         <div class="last-block_left">
                             <h2>THE MOST POWERFUL
-                                <br> Keto Burn</h2>
+                                <br> Keto Burn
+                            </h2>
                             <h3>FULL SPECTRUM<br> KETO BHB SALTS</h3>
                             <ul class="row">
                                 <li><img alt="" src="https://buyketoburn.com/v6/mobile/images/GUARANTEE.png"></li>
@@ -722,7 +827,8 @@
 
             <footer class="footer">
                 <div class="container">
-                    <img alt="" class="website-secure" src="https://buyketoburn.com/v6/mobile/images/website-secure.png">
+                    <img alt="" class="website-secure"
+                        src="https://buyketoburn.com/v6/mobile/images/website-secure.png">
                     <ul class="soc-list row">
                         <li>
                             <img alt="" src="https://buyketoburn.com/v6/mobile/images/social-icons.jpg">
@@ -732,19 +838,26 @@
                         </li>
                     </ul>
 
-                    <p>Keto Burn is committed to maintaining the highest quality products and the utmost integrity in business practices. All products sold on this website are certified by Good Manufacturing Practices (GMP), which is the highest standard
+                    <p>Keto Burn is committed to maintaining the highest quality products and the utmost integrity in
+                        business practices. All products sold on this website are certified by Good Manufacturing
+                        Practices (GMP), which is the highest standard
                         of testing in the supplement industry.</p>
-                    <p>Notice: The products and information found on this site are not intended to replace professional medical advice or treatment. These statements have not been evaluated by the Food and Drug Administration. These products are not intended
+                    <p>Notice: The products and information found on this site are not intended to replace professional
+                        medical advice or treatment. These statements have not been evaluated by the Food and Drug
+                        Administration. These products are not intended
                         to diagnose, treat, cure or prevent any disease. Individual results may vary.</p>
                     <p>&copy;
                         <script>
                             var date = new Date();
                             document.write(date.getFullYear())
-                        </script> Keto Burn. All Rights Reserved.</p>
+                        </script> Keto Burn. All Rights Reserved.
+                    </p>
 
                     <ul class="terms-links">
-                        <li> <a href="javascript:void(0);" onClick="openNewWindow('/privacy.php','modal');">Privacy Policy |</a></li>
-                        <li> <a href="javascript:void(0);" onClick="openNewWindow('/terms.php','modal');">Terms and Conditions</a></li>
+                        <li> <a href="javascript:void(0);" onClick="openNewWindow('/privacy.php','modal');">Privacy
+                                Policy |</a></li>
+                        <li> <a href="javascript:void(0);" onClick="openNewWindow('/terms.php','modal');">Terms and
+                                Conditions</a></li>
                     </ul>
                 </div>
             </footer>
@@ -766,7 +879,9 @@
                 </div>
                 <div class="custom-notification-content-wrapper">
                     <p class="custom-notification-content">
-                        <span id="notify-customer">Eli H</span>. - <span id="notify-state">TX</span><br> Purchased <strong><span id="notify-quantity">7</span></strong> Bottle(s) of Keto Burn <small><span id="notify-ago">9 minutes ago</span></small>
+                        <span id="notify-customer">Eli H</span>. - <span id="notify-state">TX</span><br> Purchased
+                        <strong><span id="notify-quantity">7</span></strong> Bottle(s) of Keto Burn <small><span
+                                id="notify-ago">9 minutes ago</span></small>
                     </p>
                 </div>
             </div>
@@ -791,7 +906,7 @@
     <script type="text/javascript" src="main-page/js/slick.min.js"></script>
     <script type="text/javascript" src="main-page/js/scripts.js"></script>
     <script type="text/javascript">
-        $(document).ready(function() {
+        $(document).ready(function () {
 
             $(".single-item, .slider-mobile").slick({
                 arrows: false,
@@ -800,13 +915,13 @@
                 autoplaySpeed: 2600,
             });
 
-            $('.loading-btn').click(function(e) {
+            $('.loading-btn').click(function (e) {
                 $('.popup-loading-wrapper').show();
-                setTimeout(function() {
+                setTimeout(function () {
                     if (window.matchMedia('(min-width: 798px)').matches) {
-                        window.location.href = '/d-step-2/Step-2.html';
+                        window.location.href = 'd-step-2/Step-2.html';
                     } else {
-                        window.location.href = '/m-step-2/Step-2.html';
+                        window.location.href = 'm-step-2/Step-2.html';
                     }
                 }, 2000);
                 return false
@@ -815,8 +930,8 @@
         });
     </script>
     <script type="text/javascript">
-        $(function() {
-            $(document).on('click', '#app_common_modal_close', function() {
+        $(function () {
+            $(document).on('click', '#app_common_modal_close', function () {
                 //     alert('close');
                 $('#app_common_modal').remove();
             });
@@ -874,7 +989,7 @@
 
 
     <script type="text/javascript">
-        $(document).ready(function() {
+        $(document).ready(function () {
             // $('#fields_phone').mask('000-000-0000');
 
             $('#single-item').slick({
@@ -908,12 +1023,12 @@
                 return false;
             }
 
-            var utils2 = (function() {
+            var utils2 = (function () {
                 return {
-                    escapeRegExChars: function(value) {
+                    escapeRegExChars: function (value) {
                         return value.replace(/[|\\{}()[\]^$+*?.]/g, "\\$&");
                     },
-                    createNode: function(containerClass) {
+                    createNode: function (containerClass) {
                         var div = document.createElement('div');
                         div.className = containerClass;
                         div.style.position = 'absolute';
@@ -923,7 +1038,7 @@
                 };
             }());
 
-            $(document).ready(function(ee) {
+            $(document).ready(function (ee) {
                 if (typeof smtAuto !== "undefined" && smtAuto == 1) {
                     $('#fields_address1').autocomplete({
                         serviceUrl: smartUrl,
@@ -931,7 +1046,7 @@
                         ajaxSettings: {},
                         minChars: 2,
                         deferRequestBy: 400,
-                        transformResult: function(response) {
+                        transformResult: function (response) {
                             if (typeof response === "undefined") {
                                 return {
                                     "suggestions": []
@@ -948,7 +1063,7 @@
                             }
 
                             return {
-                                suggestions: $.map(respJson.suggestions, function(dataItem) {
+                                suggestions: $.map(respJson.suggestions, function (dataItem) {
                                     return {
                                         value: dataItem.street_line + (dataItem.secondary != '' && dataItem.entries == 1 ? (', ' + dataItem.secondary) : ''),
                                         data: dataItem
@@ -956,7 +1071,7 @@
                                 })
                             };
                         },
-                        formatResult: function(suggestion, currentValue) {
+                        formatResult: function (suggestion, currentValue) {
                             if (typeof suggestion.data === "undefined") {
                                 return "";
                             } else {
@@ -980,7 +1095,7 @@
                                     .replace(/&lt;(\/?strong)&gt;/g, '<$1>');
                             }
                         },
-                        onSelect: function(suggestion) {
+                        onSelect: function (suggestion) {
                             if ($('#fields_city').length == 1 && (suggestion.data.city)) {
                                 $('#fields_city').val(suggestion.data.city);
                             }
@@ -999,7 +1114,7 @@
         }
 
 
-        $('form.form123').find('#fields_email').on('change keyup', function() {
+        $('form.form123').find('#fields_email').on('change keyup', function () {
             var emailReg2 = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
             if (!emailReg2.test($('#fields_email').val())) {
                 $(this).addClass('has-error');
@@ -1007,7 +1122,7 @@
             }
         });
 
-        $('form.form123').find('#fields_zip').on('change keyup', function() {
+        $('form.form123').find('#fields_zip').on('change keyup', function () {
             var zip = $('#fields_zip').val();
             if ((zip.length) < 5) {
                 $(this).addClass('has-error');
@@ -1015,8 +1130,8 @@
             }
         });
 
-        $('form#theForm').find('input, select, textarea').on('change keyup', function() {
-            $('form#theForm').find('input, select').each(function() {
+        $('form#theForm').find('input, select, textarea').on('change keyup', function () {
+            $('form#theForm').find('input, select').each(function () {
                 if ($(this).val() == '') {
                     $(this).addClass('has-error');
                     $(this).removeClass('no-error');
@@ -1095,12 +1210,12 @@
                         "?street=" + encodeURI(addr) +
                         "&key=" + smtKey;
                     $.ajax({
-                            url: apiUrl,
-                            method: "get",
-                            async: false,
-                            beforeSend: function(xhr) {}
-                        })
-                        .done(function(resData) {
+                        url: apiUrl,
+                        method: "get",
+                        async: false,
+                        beforeSend: function (xhr) { }
+                    })
+                        .done(function (resData) {
                             var errmsg = "";
                             if (!(resData) || !(resData[0]) || !(resData[0].analysis) || !(resData[0].analysis.dpv_match_code)) {
                                 vcode = "";
@@ -1128,8 +1243,8 @@
 
                             }
                         })
-                        .fail(function() {})
-                        .always(function() {});
+                        .fail(function () { })
+                        .always(function () { });
 
 
                     if (vcode == '') {
@@ -1148,7 +1263,7 @@
                             '<input type="text" name="fields_address2" id="fields_address2" placeholder="" autocomplete="off" required style="width:80%;line-height:22px;margin:10px;padding:5px" maxlength="50" value="' + (lastAddress2 != '' ? lastAddress2 : '') + '" data-error-message="Please enter your address!" />' +
                             '<button type="submit" style="width:40%;height:30px;line-height:22px;cursor:pointer;">OK</button>' +
                             '</form>'; +
-                        '</div>';
+                                '</div>';
 
                         html += '</div>';
                         html += '</div>';
@@ -1172,7 +1287,7 @@
                 return false;
             } else {
                 var li = '';
-                $.each(errors, function(key, value) {
+                $.each(errors, function (key, value) {
                     li += '<li>' + value + '</li>';
                 });
 
@@ -1189,24 +1304,24 @@
         }
 
 
-        $(function() {
-            $(window).keydown(function(e) {
+        $(function () {
+            $(window).keydown(function (e) {
                 if (e.which === 27 && $('#error_handler_overlay').length) {
                     $('#error_handler_overlay').remove();
                 }
             });
 
             $(document).off('click', '#error_handler_overlay');
-            $(document).on('click', '#error_handler_overlay', function() {
+            $(document).on('click', '#error_handler_overlay', function () {
                 $(this).remove();
             });
 
             $(document).off('click', '#error_handler_overlay_close');
-            $(document).on('click', '#error_handler_overlay_close', function() {
+            $(document).on('click', '#error_handler_overlay_close', function () {
                 $('#error_handler_overlay').remove();
             });
 
-            $(document).on('click', '#app_common_modal_close', function() {
+            $(document).on('click', '#app_common_modal_close', function () {
                 //     alert('close');
                 $('#app_common_modal').remove();
             });
