@@ -1,0 +1,104 @@
+    @media only screen and (max-width: 600px) {
+        .order__header_in img {
+            max-width: 185px;
+            float: none;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .delivery-block {
+            margin: 1.5rem 0.1rem 1.5rem 1.2rem;
+        }
+        .responsive-row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .order__right,
+        .order__left {
+            width: 100%;
+        }
+        .steps__item {
+            float: left;
+            width: 33.3%;
+            line-height: 50px;
+            text-align: center;
+            color: #000;
+            font-size: 13px;
+            background-color: #ebebeb;
+        }
+        .package-item__status span {
+            width: 15px;
+            height: 15px;
+            left: 7px;
+            top: 92px;
+        }
+        .package-images {
+            display: flex;
+            flex-direction: column;
+        }
+        .chk-plus {
+            position: absolute;
+            top: 151px;
+            left: 85px;
+            z-index: 9;
+            width: 22px;
+        }
+        .package__save {
+            width: 60px;
+            height: 60px;
+        }
+        .package__save_title {
+            font-size: 11px;
+            line-height: 20px;
+            margin-top: 11px;
+        }
+        .package__save_item {
+            font-size: 12px;
+        }
+        .package-info__title {
+            font-size: 10px;
+            line-height: 12px;
+            padding-left: 0;
+        }
+        .package-info__price {
+            font-size: 21px;
+            margin-left: -22px;
+        }
+        .package-info__price span {
+            font-size: 10px;
+            margin-left: 3px;
+        }
+        .package-info__btn {
+            margin-top: 166px;
+        }
+        .guarantee-text p {
+            text-align: justify;
+        }
+        .footer p {
+            font-size: .6rem;
+            text-align: center;
+            line-height: 1.4;
+            margin-bottom: 1.25rem;
+        }
+    }
+    
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait)
+    /* applied to lg also */
+    
+    {
+        .responsive-row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .order__right,
+        .order__left {
+            width: 100%;
+        }
+        .chk-plus {
+            left: 175px;
+        }
+    }
